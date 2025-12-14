@@ -32,7 +32,7 @@ const Read = () => {
         />
       )}
 
-      <h1>All Data</h1>
+      <h1>*** All Data ***</h1>
       <div className="form-check form-check-inline">
         <input
           className="form-check-input"
