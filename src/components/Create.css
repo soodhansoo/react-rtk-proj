@@ -220,3 +220,10 @@
 	.modal form label {
 		font-weight: normal;
 	}	
+
+
+.form-error {
+  color: red;          /* text color */
+  font-size: 0.9rem;   /* slightly smaller than normal text */
+  margin-top: 4px;     /* spacing below the input */
+}
