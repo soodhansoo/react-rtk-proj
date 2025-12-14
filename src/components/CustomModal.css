@@ -1,0 +1,25 @@
+/* Modal background overlay */
+.modalBackground {
+  position: fixed;          /* stays in place */
+  top: 0;
+  left: 0;
+  width: 100vw;             /* full viewport width */
+  height: 100vh;            /* full viewport height */
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: flex;            /* use flexbox to center */
+  justify-content: center;  /* horizontally center */
+  align-items: center;      /* vertically center */
+  z-index: 1000;            /* ensure it sits above other content */
+}
+
+/* Modal container */
+.modalContainer {
+  background-color: #fff;   /* white background */
+  padding: 20px 30px;
+  border-radius: 8px;       /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  max-width: 500px;         /* limit width */
+  width: 90%;               /* responsive sizing */
+  text-align: center;       /* center text */
+  font-family: Arial, sans-serif;
+}
